@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Latihan JAVASCRIPT ON SITE XDXDXD</title>
+    </head>
+
+    <body>
+        <p id="contoh"></p>
+
+        <button type="button" onclick="myFunction()">HTML BERUBAH</button><br>
+        <button type="button" onclick="writeFunction()">HTML HILANG</button><br>
+        <button type="button" onclick="windowFunction()">WindowAlert</button><br>
+
+        <script>
+            // alert("awfawfawdawd");
+
+        function windowFunction(){
+            window.alert("WEWEWEWEEWEWEEWEWE");
+        }    
+
+        function writeFunction(){
+            document.write("HALO BRORORBROBRO");
+        }
+        document.getElementById("contoh").innerHTML = "My First Javascript";
+        
+        function myFunction(){
+            document.getElementById("contoh").innerHTML = "HTML BERUBAH"
+        }
+        </script>
+        <h2 id="coba">Javascript ternyata bisa ngubah elemen html lho wowowowoowww</h2>
+        <button type="button" onclick='document.getElementById("coba").innerHTML = "Hello JavaScript!"'>Click Me Dude!</button>
+
+
+
+        <h2>ternyata javascript bisa ngubah value dari element</h2>
+        <button onclick="document.getElementById('image1').src= 'https://www.w3schools.com/js/pic_bulbon.gif'">Turn On Hte Light</button>
+        <img id="image1" src ="https://www.w3schools.com/js/pic_bulboff.gif" style="width: 100px;">
+        <button onclick="document.getElementById('image1').src= 'https://www.w3schools.com/js/pic_bulboff.gif'">Turn Off Hte Light</button>
+
+
+
+    </body>
+</html>
